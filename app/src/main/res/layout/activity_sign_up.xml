@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/homepage_1"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginTop="23dp"
+        android:src="@mipmap/logo" />
+
+
+
+    <EditText
+        android:id="@+id/enroll"
+        android:layout_width="215dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/round_corner_edittext"
+        android:hint="Enrollment Number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="215dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/round_corner_edittext"
+        android:hint="name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/newUserName"
+        android:layout_width="215dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:background="@drawable/round_corner_edittext"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="215dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="265dp"
+        android:background="@drawable/round_corner_edittext"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/cfmpassword"
+        android:layout_width="215dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="305dp"
+        android:background="@drawable/round_corner_edittext"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tnc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-180dp"
+        android:background="@drawable/button_background"
+        android:text="Sign Up"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/signinlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:text="Already Have An Account ? Log In" />
+
+    <CheckBox
+        android:id="@+id/tnc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="185dp"
+        android:text="I Agree With Terms And Conditions" />
+</RelativeLayout>
